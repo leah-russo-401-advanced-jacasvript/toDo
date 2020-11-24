@@ -2,27 +2,34 @@
   "name": "todo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leah-russo-401-advanced-jacasvript/toDo.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leah-russo-401-advanced-jacasvript/toDo/issues"
-  },
-  "homepage": "https://github.com/leah-russo-401-advanced-jacasvript/toDo#readme",
+  "keywords": [],
+  "main": "src/index.js",
   "dependencies": {
-    "node-sass": "^5.0.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-jsonschema-form": "^1.8.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.1",
-    "uui": "^1.0.7"
+    "node-sass": "^4.14.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-jsonschema-form": "1.8.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.1",
+    "uuid": "8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
